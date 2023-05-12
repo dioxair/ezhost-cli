@@ -1,6 +1,8 @@
 import inquirer from "inquirer";
 
-inquirer.prompt([
+let authKey: String;
+
+let authPrompt = await inquirer.prompt([
   {
     type: "password",
     name: "authKey",
@@ -8,3 +10,5 @@ inquirer.prompt([
     mask: "*",
   },
 ]);
+
+authKey = authPrompt.authKey;
