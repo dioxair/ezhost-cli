@@ -1,0 +1,20 @@
+{
+  "name": "ezhost-cli",
+  "version": "0.0.0",
+  "description": "Interact with E-Z.host services via a simple to use CLI!",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelolagunju/ezhost-cli.git"
+  },
+  "author": "Samuel Olagunju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelolagunju/ezhost-cli/issues"
+  },
+  "homepage": "https://github.com/samuelolagunju/ezhost-cli#readme"
+}
